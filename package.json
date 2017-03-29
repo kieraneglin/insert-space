@@ -1,0 +1,22 @@
+{
+  "name": "insert-space",
+  "version": "0.0.1",
+  "description": "A utility for saving keystrokes and keeping semantic synergy",
+  "main": "insert-space.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kieraneglin/insert-space.git"
+  },
+  "author": "Kieran Eglin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kieraneglin/insert-space/issues"
+  },
+  "homepage": "https://github.com/kieraneglin/insert-space#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
