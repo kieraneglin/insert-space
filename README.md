@@ -9,7 +9,7 @@ In order to keep semantic synergy when working with a Node project, we suggest u
 ## Usage
 
 ```javascript
-const InsertSpace = require('./../insert-space');
+const InsertSpace = require('insert-space');
 InsertSpace.space();
 
 ```
