@@ -10,4 +10,9 @@ describe('Insert Space', function(){
     string = `Hello,${InsertSpace.space()}world!`;
     assert.equal(string, 'Hello, world!');
   });
+  // Lazy test naming, but whatever
+  it('Inserts spaces in long string', function(){
+    string = InsertSpace.insertSpaces('Hello,', 'world!');
+    assert.equal(string, 'Hello, world!');
+  });
 });
