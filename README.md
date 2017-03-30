@@ -11,5 +11,7 @@ In order to keep semantic synergy when working with a Node project, we suggest u
 ```javascript
 const InsertSpace = require('insert-space');
 InsertSpace.space();
+// Or
+InsertSpace.insertSpaces('This', 'has', 'a', 'bunch', 'of', 'spaces');
 
 ```
